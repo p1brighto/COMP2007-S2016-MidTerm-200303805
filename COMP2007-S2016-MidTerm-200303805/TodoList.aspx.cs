@@ -54,6 +54,7 @@ namespace COMP2007_S2016_MidTerm_200303805
                 // bind the result to the GridView
                 TodoGridView.DataSource = TodoLists.AsQueryable().OrderBy(sortString).ToList();
                 TodoGridView.DataBind();
+                CheckBox cb = new CheckBox();
             }
         }
         protected void PageSizeDownList_SelectedIndexChanged(object sender, EventArgs e)
