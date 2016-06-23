@@ -9,6 +9,12 @@ using System.Web.UI.WebControls;
 using COMP2007_S2016_MidTerm_200303805.Models;
 using System.Web.ModelBinding;
 using System.Linq.Dynamic;
+/**
+ * @author: Brighto Paul(2003003805),
+ * @date: June 23, 2016
+ * Desc: It will show the Todo lists
+ * version:1.1
+ */
 
 namespace COMP2007_S2016_MidTerm_200303805
 {
@@ -127,6 +133,8 @@ namespace COMP2007_S2016_MidTerm_200303805
                             e.Row.Cells[i].Controls.Add(linkbutton);
                         }
                     }
+                    /*if(e.Row.RowType==DataControlRowType.DataRow)
+                        ((CheckBox)e.Row.FindControl("Completedcheckbox")).Checked = ;*/
                 }
             }
         }

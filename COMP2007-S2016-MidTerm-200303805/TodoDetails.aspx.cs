@@ -10,6 +10,13 @@ using COMP2007_S2016_MidTerm_200303805.Models;
 using System.Web.ModelBinding;
 using System.Linq.Dynamic;
 
+/**
+ * @author: Brighto Paul(2003003805),
+ * @date: June 23, 2016
+ * Desc: It will update the Todolist or add a new todo list
+ * version:1.1
+ */
+
 namespace COMP2007_S2016_MidTerm_200303805
 {
     public partial class TodoDetails : System.Web.UI.Page
